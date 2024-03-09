@@ -7,6 +7,8 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
+//Configuração do Banco de dados
+
 const db = getDatabase(app);
 
 function addItemToTable(infoRamal) {
