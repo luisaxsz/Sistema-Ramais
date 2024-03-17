@@ -23,3 +23,18 @@ th,
 td {
   padding: 5px;
 }
+.controls{
+  display: flex;
+  flex-direction: row;
+  gap: 6em;
+}
+.busca{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  gap: 0.4em;
+}
+#busca{
+  padding: 0.5em;
+}
+
