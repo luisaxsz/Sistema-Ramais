@@ -8,27 +8,37 @@
   </head>
 
   <body>
-    <h1>Ramais da Casa Civil da Governadoria</h1>
-    <div class="busca">
-      <label for="busca">Buscar Ramais</label>
-      <input
-        type="search"
-        placeholder="Busque por setor,local ou usuário..."
-        id="busca"
-      />
-    </div>
-    <table id="table-ramais">
-      <th id="local">Local</th>
-      <th id="setor">Setor</th>
-      <th id="usuario">Usuário</th>
-      <th id="ramal">Ramal</th>
-    </table>
-
-    <div class="controle_paginação">
-      <button id="anterior"><</button>
-      <button id="proxima">></button>
-    </div>
-   
+    <header>
+      <div class="container-h1">
+        <h1>Ramais da Casa Civil da Governadoria</h1>
+        <img
+          src="https://s4.static.brasilescola.uol.com.br/be/2021/05/bandeira-para.jpg"
+          alt="bandeira do pará"
+        />
+      </div>
+      <div class="busca">
+        <label for="busca">Buscar Ramais</label>
+        <input
+          type="search"
+          placeholder="Busque por setor,local ou usuário..."
+          id="busca"
+        />
+      </div>
+    </header>
+    <main>
+      <table id="table-ramais">
+        <th id="local">Local</th>
+        <th id="setor">Setor</th>
+        <th id="usuario">Usuário</th>
+        <th id="ramal">Ramal</th>
+      </table>
+    </main>
+    <footer>
+      <div class="controle-paginação">
+        <button id="anterior">&lt; Anterior</button>
+        <button id="proxima">Próxima &gt;</button>
+      </div>
+    </footer>
     <!---Firebase config-->
     <script
       type="module"
